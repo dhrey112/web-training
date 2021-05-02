@@ -1,0 +1,6 @@
+/* Display layout: */
+#Display{
+    display: block;
+    display: inline;
+    display: inline-block;
+}
