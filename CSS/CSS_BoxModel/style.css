@@ -9,22 +9,26 @@
 
 #solid {
     border-style: solid;
-    padding-top;: 4px
+    padding-top;: 4px;
+    margin-top: 20px;
 }
 
 #dotted {
     border-style: dotted;
     padding-right: 30px;
+    margin-right: 30px;
 }
 
 #dashed {
     border-style: dashed;
     padding-left: 30px;
+    margin-bottom: 20px;
 }
 
 #doubled {
     border-style: double;
     padding-bottom: 30px;
+    margin-left: 30px;
 }
 
 #groove {
@@ -40,6 +44,24 @@
 }
 
 /* Padding: is the space between the content and the borders of the element. it is the within an element*/
+
 #padding-shorthand {
     padding: 20px 30px 50px 40px; /*it move clockwise*/
+}
+
+  /* Margin: It is the space around the element. it is
+  the space that separates an element from other elements around it. 
+  Value can be length(px, cm, pt, mm), auto, percentage, inherit*/
+
+#margin-shorthand {
+    margin: 30px 30px 20px 30px;
+
+    /* Value Length */
+    margin: 20px 1em 20pt 1rem;
+
+    /* Value auto */
+    margin: auto;
+
+    /* value percent */
+    margin: 10px 15%;
 }
