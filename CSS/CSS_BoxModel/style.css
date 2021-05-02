@@ -1,0 +1,45 @@
+/* Height and width- this is for the content area */
+
+#height-width {
+    height:49px;
+    width:100px
+}
+
+/* Border: Line of demarcation of an element's space  */
+
+#solid {
+    border-style: solid;
+    padding-top;: 4px
+}
+
+#dotted {
+    border-style: dotted;
+    padding-right: 30px;
+}
+
+#dashed {
+    border-style: dashed;
+    padding-left: 30px;
+}
+
+#doubled {
+    border-style: double;
+    padding-bottom: 30px;
+}
+
+#groove {
+    border-style: groove;
+}
+
+#inset {
+    border-style: inset;
+}
+
+#outset {
+    border-style: outset;
+}
+
+/* Padding: is the space between the content and the borders of the element. it is the within an element*/
+#padding-shorthand {
+    padding: 20px 30px 50px 40px; /*it move clockwise*/
+}
