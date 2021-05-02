@@ -1,0 +1,57 @@
+#first {
+    font-family: Georgia, "Times New Roman", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+#second {
+    font-family: Tahoma;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#third {
+    font-family: "Lucida Console";
+    font-style: oblique;
+}
+
+#control {
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+    /* Font shorthand for other property */
+    font: normal small-caps italic small-caps bold 40px serif;
+
+    /* When it is like this, the font property override each stated property-value  */
+}
+
+/* Style rules for the system font demonstration */
+
+#captions {
+    font: caption;
+}
+
+#icon {
+    font: icon;
+}
+
+#menu {
+    font: menu;
+}
+
+#message-box {
+    font: message-box;
+}
+
+#status-bar {
+    font: status-bar;
+}
+
+#small-caption{
+    font: small-caption;
+}
+

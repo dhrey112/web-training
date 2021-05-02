@@ -1,0 +1,66 @@
+#color {
+    /* Color */
+    color: red;
+    white-space: normal;
+
+}
+
+#left {
+    /* Direction */
+    direction: ltr;
+
+    /* Word Spacing */
+    word-spacing: 15px;
+    letter-spacing: 15;
+    text-indent: 20px;
+    white-space: pre;
+
+}
+
+#right {
+    direction: rtl;
+
+    /* Word Spacing */
+    word-spacing: 50px;
+
+    /* Letter Spacing */
+    letter-spacing: 50px;
+
+    /* Text Indentation */
+    text-indent: 50px;
+
+    /* White Space */
+    white-space: nowrap;
+}
+#left-heading {
+    /* Text Alignment */
+    text-align: left;
+
+    /* Text Decoration */
+    text-decoration: none;
+
+    /* Text Transformation */
+    text-transform: capitalize;
+}
+
+#center-heading {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#right-heading {
+    text-align: right;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+
+#no-align {
+    text-decoration: line-through;
+
+    /* Text shadow */
+    text-shadow: 5px 8px 7px red;
+
+
+}
+
+
