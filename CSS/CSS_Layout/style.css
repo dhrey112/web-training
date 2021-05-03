@@ -4,3 +4,72 @@
     display: inline;
     display: inline-block;
 }
+
+/* Position: For moving element in web page 
+Static value have no effect on the element
+Relative:  It positions an element relative to its normal position*/
+
+#static-position{
+    position: static;
+    top: 40px;
+    bottom: 10px;
+    left: 20px;
+    right: 33px;
+}
+
+#relative-position{
+    position: relative;
+    bottom: 20px;
+    top: 20px;
+    left: 20px
+}
+
+#absolutte-position{
+    position: absolute
+}
+
+/* Fixed won't move with other content on the web page */
+#fixed-position{
+    position: fixed
+}
+
+/* Sticky positioned element relative to the 
+scroll position of the web page. It stick when 
+ing to a specified viewport*/
+
+#sticky-position{
+    position: sticky;
+}
+
+/* z-library specifies arrangement positioned elment  */
+#z-index{
+    position:
+}
+
+/* float position: for moving specific element to the left or rigth within its pareent element. */
+#float-position{
+    float: left;
+    float: right;
+}
+
+/* Clear; it is used to stop the movement of the 
+element that are around the floated element*/
+#clear-property{
+    clear: both;
+}
+
+/* #clear-fix-hack to solve the box claim problem */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#clear-fix-another2{
+    display: flow-root;
+}
+
+#clear-fix-another3{
+    overflow: hidden;
+}
