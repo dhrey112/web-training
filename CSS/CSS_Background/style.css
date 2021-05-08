@@ -1,0 +1,12 @@
+.bg-image {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 200px, 400px;
+    background-origin:border-box;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+
+    background: 
+}

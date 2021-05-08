@@ -1,0 +1,45 @@
+@media  and (max-width: 600px {
+    .topnav a {
+        float: none;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+}
+
+.pricing-header {
+
+}
+
+.pricing-heading {
+
+}
+
+
+    @media screen and (min 600px){
+        .pricing-heading {
+            display:flex;
+            /* flex-wrap:wrap;
+            flex-direction:row; */
+            flex-flow: row, wrap;
+
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis:0%;
+
+            flex: 1 1 0;
+        } 
+    }
+
+    .pricing {
+        display:grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+
+    @media and (min-width: 768px) {
+        .footer-grid {
+            display:grid;
+            grid-template-columns: auto auto auto auto; 
+        }
+    }
